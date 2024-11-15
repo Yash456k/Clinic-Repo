@@ -52,7 +52,7 @@ const App = () => {
               }
             >
               <Mail className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              <span className="relative z-10">akaaydentalcare@gmail.com</span>
+              <span className="relative z-10">akaaydental@gmail.com</span>
             </Button>
             <Button
               variant="outline"
@@ -60,7 +60,7 @@ const App = () => {
               onClick={() => (window.location.href = "tel:+919499071383")}
             >
               <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              +91 94990 71383
+              +91 84880 71383
             </Button>
           </div>
 
