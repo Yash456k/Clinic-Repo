@@ -84,9 +84,7 @@ const App = () => {
           mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
         }`}
       >
-        <p className="tracking-wider">
-          © 2024 Dental Clinic • Premium Dental Care
-        </p>
+        <p className="tracking-wider">© 2024 Akaay Dental Care</p>
       </footer>
     </div>
   );
