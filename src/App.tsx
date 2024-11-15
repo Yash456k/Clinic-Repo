@@ -48,7 +48,7 @@ const App = () => {
             <Button
               className="bg-gray-800 hover:bg-gray-700 text-orange-50 w-full group relative overflow-hidden"
               onClick={() =>
-                (window.location.href = "mailto:akaaydentalcare@gmail.com")
+                (window.location.href = "mailto:akaaydental@gmail.com")
               }
             >
               <Mail className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
@@ -57,7 +57,7 @@ const App = () => {
             <Button
               variant="outline"
               className="border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-orange-50 w-full group"
-              onClick={() => (window.location.href = "tel:+919499071383")}
+              onClick={() => (window.location.href = "tel:+918488071383")}
             >
               <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
               +91 84880 71383
