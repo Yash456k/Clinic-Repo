@@ -35,7 +35,7 @@ const App = () => {
             Coming Soon
           </h1>
           <p className="text-2xl text-gray-600 font-light">
-            Crafting Excellence in Dental Care
+            Crafting Excellence and Smiles
           </p>
         </div>
 
