@@ -35,7 +35,7 @@ const App = () => {
           <h1 className="text-6xl font-bold text-gray-800 mb-2 tracking-tight">
             Coming Soon
           </h1>
-          <p className="text-2xl text-gray-600 font-light">
+          <p className="text-2xl text-gray-900 font-light">
             Crafting Excellence and Smiles
           </p>
         </div>
@@ -103,7 +103,7 @@ const App = () => {
           mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}
       >
-        <p className="tracking-wider">© 2024 Akaay Dental Care</p>
+        <p className="tracking-wider text-black">© 2024 Akaay Dental Care</p>
       </footer>
     </div>
   );
