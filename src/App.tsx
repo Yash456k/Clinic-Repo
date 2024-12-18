@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { Heart, Mail, Phone, Clock, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Analytics } from "@vercel/analytics/react"
+import { useEffect, useState } from 'react';
+import { Heart, Mail, Phone, Clock, MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [mounted, setMounted] = useState(false);
@@ -11,17 +11,15 @@ const App = () => {
     setMounted(true);
   }, []);
 
-
-
   return (
     //#9db79e
     <div className="min-h-screen bg-[#8ac38b] flex flex-col items-center justify-center p-4 relative overflow-hidden">
-      <Analytics/>
+      <Analytics />
 
       {/* Main Content */}
       <div
         className={`relative text-center space-y-8 transform transition-all duration-1000 ${
-          mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+          mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}
       >
         {/* Logo Area */}
@@ -51,7 +49,7 @@ const App = () => {
             <Button
               className="bg-gray-800 hover:bg-gray-700 text-orange-50 w-full group relative overflow-hidden"
               onClick={() =>
-                (window.location.href = "mailto:akaaydental@gmail.com")
+                (window.location.href = 'mailto:akaaydental@gmail.com')
               }
             >
               <Mail className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
@@ -60,7 +58,7 @@ const App = () => {
             <Button
               variant="outline"
               className="border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-orange-50 w-full group"
-              onClick={() => (window.location.href = "tel:+918488071383")}
+              onClick={() => (window.location.href = 'tel:+918488071383')}
             >
               <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
               +91 84880 71383
@@ -84,10 +82,10 @@ const App = () => {
             <div className="flex items-center justify-center">
               <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
               <div className="text-sm">
-              <div className="flex flex-row">
-              <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              +91 8488071383
-              </div>
+                <div className="flex flex-row">
+                  <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+                  +91 8488071383
+                </div>
                 106, HR Elanza,
                 <br />
                 Vikas Gruh Road,
@@ -102,7 +100,7 @@ const App = () => {
       {/* Footer */}
       <footer
         className={`mt-16 text-gray-600 text-sm transform transition-all duration-1000 delay-300 ${
-          mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+          mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}
       >
         <p className="tracking-wider">© 2024 Akaay Dental Care</p>
