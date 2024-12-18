@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Heart, Mail, Phone, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   const [mounted, setMounted] = useState(false);
@@ -10,10 +11,12 @@ const App = () => {
     setMounted(true);
   }, []);
 
+
+
   return (
     //#9db79e
     <div className="min-h-screen bg-[#8ac38b] flex flex-col items-center justify-center p-4 relative overflow-hidden">
-      {/* Animated background elements */}
+      <Analytics/>
 
       {/* Main Content */}
       <div
