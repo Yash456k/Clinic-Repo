@@ -77,10 +77,14 @@ const App = () => {
           </div>
 
           {/* Address */}
-          <div className="mt-6 pt-6 border-t border-gray-200 text-gray-700">
+          <div className="mt-2 pt-2 border-t border-gray-200 text-gray-700">
             <div className="flex items-center justify-center">
               <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
               <div className="text-sm">
+              <div className="flex flex-row">
+              <Phone className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+              +91 8488071383
+              </div>
                 106, HR Elanza,
                 <br />
                 Vikas Gruh Road,
